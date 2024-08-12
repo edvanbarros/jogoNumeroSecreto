@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []
-let numeroLimite = 3
+let numeroLimite = 10
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -29,7 +29,7 @@ function verificarChute() {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'Número Secreto é menor.');
         } else {
-            exibirTextoNaTela('p', 'Número Secreito e maior.');
+            exibirTextoNaTela('p', 'Número Secreto é maior.');
         }    
     }
     limparCampo();
